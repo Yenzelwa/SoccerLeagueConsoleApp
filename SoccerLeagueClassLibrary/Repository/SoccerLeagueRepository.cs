@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using SoccerLeagueClassLibrary.Models;
 using SoccerLeagueDomain;
 
-namespace SoccerLeagueRankingsClassLibrary.Repository;
+namespace SoccerLeagueClassLibrary.Repository;
 
 public interface ISoccerLeagueRepository
 {

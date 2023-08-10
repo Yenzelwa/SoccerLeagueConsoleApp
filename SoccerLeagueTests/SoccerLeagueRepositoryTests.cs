@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SoccerLeagueClassLibrary.Models;
 using SoccerLeagueDomain;
-using SoccerLeagueRankingsClassLibrary.Repository;
+using SoccerLeagueClassLibrary.Repository;
 using Xunit;
 
 namespace SoccerLeagueRankingsTests;

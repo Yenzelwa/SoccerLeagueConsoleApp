@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ikRie3pdggBWW2Mhcl8hkLzzpZ7VE3vEHOwRbazIrDjv+BDHp66dLn7VrFKCjEcnZfloaJ2Ya1vwI/e3eqdHZw==",
+  "dgSpecHash": "Bw+9jMnfbXtQN9Wkl5E+uMyQMEmmz/3msvD8nXWXcLa6hntwiqGWpi4ovv7L8rN/zfzOknW62GENQ8epNeNUmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
+  "projectFilePath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\X270\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\X270\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
