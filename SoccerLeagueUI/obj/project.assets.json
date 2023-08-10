@@ -4513,11 +4513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
+      "projectUniqueName": "C:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
       "projectName": "SoccerLeagueUI",
-      "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
+      "projectPath": "C:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
       "packagesPath": "C:\\Users\\X270\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\obj\\",
+      "outputPath": "C:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\X270\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4532,8 +4532,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj": {
-              "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj"
+            "C:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj"
             }
           }
         }

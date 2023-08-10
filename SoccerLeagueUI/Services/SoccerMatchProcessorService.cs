@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using SoccerLeagueClassLibrary.BusinessLogic;
-using SoccerLeagueRankingsClassLibrary.Repository;
+using SoccerLeagueClassLibrary.Repository;
 using SoccerLeagueUI.Output;
 
 

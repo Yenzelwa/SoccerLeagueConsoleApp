@@ -64,6 +64,11 @@ namespace SoccerLeagueUI.Services
                         soccerMatches.Add(match);
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Invalid user input");
+                    return soccerMatches;
+                }
             }
 
             return soccerMatches;
@@ -89,10 +94,10 @@ namespace SoccerLeagueUI.Services
                 return null; 
             }
 
-            string teamA = MyRegex().Replace(teamAScoreData[0], " ").Trim();
+            string teamA = teamAScoreData[0].Trim();
             int scoreA = int.Parse(teamAScoreData[1]);
 
-            string teamB = MyRegex().Replace(teamBScoreData[0], " ").Trim();
+            string teamB = teamBScoreData[0].Trim();
             int scoreB = int.Parse(teamBScoreData[1]);
 
             return new SoccerMatch(teamA, scoreA, teamB, scoreB);
@@ -119,12 +124,6 @@ namespace SoccerLeagueUI.Services
             bool isValid = regex.IsMatch(inputLine);
             return isValid;
         }
-
-        private static Regex MyRegex()
-        {
-            return new Regex(@"[^a-zA-Z0-9]");
-        }
-
 
     }
 }

@@ -4,7 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using SoccerLeagueDomain;
-using SoccerLeagueRankingsClassLibrary.Repository;
+using SoccerLeagueClassLibrary.BusinessLogic;
+using SoccerLeagueClassLibrary.Repository;
 using SoccerLeagueUI.InputHandlers;
 using SoccerLeagueUI.Output;
 using SoccerLeagueUI.Services;
@@ -56,14 +57,16 @@ namespace SoccerLeagueUI
         {
             services.AddScoped<IManualInputHandler, ManualInputHandler>();
             services.AddScoped<IFileInputHandler, FileInputHandler>();
-            services.AddScoped<IInputValidatorService, InputValidatorService>();
+
 
             services.AddDbContext<SoccerLeagueDBContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("SoccerLeagueConnection") + ";TrustServerCertificate=true"));
 
+            services.AddScoped<IInputValidatorService, InputValidatorService>();
             services.AddScoped<ISoccerLeagueRepository, SoccerLeagueRepository>();
             services.AddScoped<ISoccerLeagueService, SoccerLeagueService>();
             services.AddScoped<ISoccerMatchProcessorService, SoccerMatchProcessorService>();
+            services.AddSingleton<ISoccerLeague, SoccerLeague>();
             services.AddScoped<ITeamScorePrinter, TeamScorePrinter>();
         }
     }
