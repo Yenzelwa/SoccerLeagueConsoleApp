@@ -1,0 +1,15 @@
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\bin\Debug\net7.0\SoccerLeagueClassLibrary.deps.json
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\bin\Debug\net7.0\SoccerLeagueClassLibrary.dll
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\bin\Debug\net7.0\SoccerLeagueClassLibrary.pdb
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\bin\Debug\net7.0\SoccerLeagueDomain.dll
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\bin\Debug\net7.0\SoccerLeagueDomain.pdb
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.csproj.AssemblyReference.cache
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.AssemblyInfoInputs.cache
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.AssemblyInfo.cs
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.csproj.CoreCompileInputs.cache
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.csproj.CopyComplete
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.dll
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\refint\SoccerLeagueClassLibrary.dll
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\SoccerLeagueClassLibrary.pdb
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueClassLibrary\obj\Debug\net7.0\ref\SoccerLeagueClassLibrary.dll

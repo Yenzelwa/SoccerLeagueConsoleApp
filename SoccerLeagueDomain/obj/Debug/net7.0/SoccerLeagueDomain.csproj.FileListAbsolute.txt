@@ -1,0 +1,14 @@
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\bin\Debug\net7.0\SoccerLeagueDomain.deps.json
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\bin\Debug\net7.0\SoccerLeagueDomain.runtimeconfig.json
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\bin\Debug\net7.0\SoccerLeagueDomain.dll
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\bin\Debug\net7.0\SoccerLeagueDomain.pdb
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.csproj.AssemblyReference.cache
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.AssemblyInfoInputs.cache
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.AssemblyInfo.cs
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.csproj.CoreCompileInputs.cache
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.dll
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\refint\SoccerLeagueDomain.dll
+C:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.pdb
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\SoccerLeagueDomain.genruntimeconfig.cache
+c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueDomain\obj\Debug\net7.0\ref\SoccerLeagueDomain.dll

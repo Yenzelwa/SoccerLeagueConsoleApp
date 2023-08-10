@@ -1,0 +1,65 @@
+2023-08-09 16:11:34.069 +02:00 [INF] Application Starting
+2023-08-09 17:37:15.236 +02:00 [INF] Application Starting
+2023-08-09 17:42:39.390 +02:00 [INF] Application Starting
+2023-08-09 21:49:34.843 +02:00 [INF] Application Starting
+2023-08-09 21:51:23.340 +02:00 [INF] Application Starting
+2023-08-09 21:53:24.377 +02:00 [INF] Application Starting
+2023-08-09 22:05:39.857 +02:00 [INF] Application Starting
+2023-08-09 22:06:07.343 +02:00 [ERR] An error occurred: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+System.InvalidOperationException: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at SoccerLeagueUI.Program.<>c__DisplayClass2_1.<ConfigureServices>b__2(String choice) in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Program.cs:line 62
+   at SoccerLeagueUI.Services.SoccerLeagueService.HandleUserChoice(String choice) in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 68
+   at SoccerLeagueUI.Services.SoccerLeagueService.Run() in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 38
+2023-08-09 22:07:10.304 +02:00 [INF] Application Starting
+2023-08-09 22:26:28.215 +02:00 [INF] Application Starting
+2023-08-09 22:28:39.045 +02:00 [INF] Application Starting
+2023-08-09 22:30:05.022 +02:00 [INF] Application Starting
+2023-08-09 22:35:28.284 +02:00 [INF] Application Starting
+2023-08-09 22:36:10.053 +02:00 [INF] Application Starting
+2023-08-09 22:39:51.987 +02:00 [INF] Application Starting
+2023-08-09 22:40:40.631 +02:00 [INF] Application Starting
+2023-08-09 22:43:02.037 +02:00 [INF] Application Starting
+2023-08-09 22:51:05.187 +02:00 [INF] Application Starting
+2023-08-09 22:56:47.572 +02:00 [INF] Application Starting
+2023-08-09 22:57:33.455 +02:00 [INF] Application Starting
+2023-08-09 23:08:44.706 +02:00 [INF] Application Starting
+2023-08-09 23:08:53.877 +02:00 [INF] Manual input handling started.
+2023-08-09 23:27:15.226 +02:00 [INF] Application Starting
+2023-08-09 23:27:54.159 +02:00 [INF] Application Starting
+2023-08-09 23:28:04.689 +02:00 [INF] File input handling started.
+2023-08-09 23:28:04.693 +02:00 [INF] Reading file contents from path: C:\Users\X270\OneDrive\Desktop\soccer-match.txt
+2023-08-09 23:30:09.483 +02:00 [INF] Application Starting
+2023-08-09 23:30:12.473 +02:00 [INF] File input handling started.
+2023-08-09 23:30:12.476 +02:00 [INF] Reading file contents from path: C:\Users\X270\OneDrive\Desktop\soccer-match.txt
+2023-08-09 23:31:42.149 +02:00 [INF] Executed DbCommand (91ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [TeamScore] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2),
+(@p6, @p7, 3),
+(@p8, @p9, 4),
+(@p10, @p11, 5)) AS i ([Points], [Team], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Points], [Team])
+VALUES (i.[Points], i.[Team])
+OUTPUT INSERTED.[Id], i._Position;
+2023-08-09 23:36:37.071 +02:00 [INF] Application Starting
+2023-08-09 23:36:44.726 +02:00 [INF] File input handling started.
+2023-08-09 23:36:44.730 +02:00 [INF] Reading file contents from path: C:\Users\X270\OneDrive\Desktop\soccer-match.txt
+2023-08-09 23:37:31.687 +02:00 [INF] Executed DbCommand (93ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = Int32), @p9='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [TeamScore] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2),
+(@p6, @p7, 3),
+(@p8, @p9, 4)) AS i ([Points], [Team], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Points], [Team])
+VALUES (i.[Points], i.[Team])
+OUTPUT INSERTED.[Id], i._Position;

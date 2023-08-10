@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueTests\\SoccerLeagueTests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj",
+        "projectName": "SoccerLeagueClassLibrary",
+        "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\X270\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\X270\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj": {
+                "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj",
+        "projectName": "SoccerLeagueDomain",
+        "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj",
+        "packagesPath": "C:\\Users\\X270\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\X270\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueTests\\SoccerLeagueTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueTests\\SoccerLeagueTests.csproj",
+        "projectName": "SoccerLeagueTests",
+        "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueTests\\SoccerLeagueTests.csproj",
+        "packagesPath": "C:\\Users\\X270\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\X270\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj": {
+                "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj"
+              },
+              "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj": {
+                "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueDomain\\SoccerLeagueDomain.csproj"
+              },
+              "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj": {
+                "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
+        "projectName": "SoccerLeagueUI",
+        "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\SoccerLeagueUI.csproj",
+        "packagesPath": "C:\\Users\\X270\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\X270\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj": {
+                "projectPath": "c:\\Users\\X270\\OneDrive\\Desktop\\SoccerLeagueConsoleApp\\SoccerLeagueClassLibrary\\SoccerLeagueClassLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

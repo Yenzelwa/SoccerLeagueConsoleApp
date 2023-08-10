@@ -1,0 +1,102 @@
+2023-08-09 16:09:46.989 +02:00 [INF] Application Starting
+2023-08-09 16:12:07.047 +02:00 [INF] Application Starting
+2023-08-09 16:12:48.546 +02:00 [INF] Executed DbCommand (75ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [TeamScore] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2)) AS i ([Points], [Team], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Points], [Team])
+VALUES (i.[Points], i.[Team])
+OUTPUT INSERTED.[Id], i._Position;
+2023-08-09 17:39:50.653 +02:00 [INF] Application Starting
+2023-08-09 17:42:12.291 +02:00 [INF] Application Starting
+2023-08-09 17:42:19.687 +02:00 [ERR] An error occurred: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+System.InvalidOperationException: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at SoccerLeagueUI.Services.SoccerLeagueService.HandleUserChoice(String choice) in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 68
+   at SoccerLeagueUI.Services.SoccerLeagueService.Run() in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 34
+2023-08-09 17:43:15.418 +02:00 [INF] Application Starting
+2023-08-09 17:44:55.387 +02:00 [ERR] An error occurred: No service for type 'SoccerLeagueUI.InputHandlers.FileInputHandler' has been registered.
+System.InvalidOperationException: No service for type 'SoccerLeagueUI.InputHandlers.FileInputHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at SoccerLeagueUI.Services.SoccerLeagueService.HandleUserChoice(String choice) in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 73
+   at SoccerLeagueUI.Services.SoccerLeagueService.Run() in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 34
+2023-08-09 17:45:11.876 +02:00 [INF] Application Starting
+2023-08-09 17:45:14.677 +02:00 [ERR] An error occurred: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+System.InvalidOperationException: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at SoccerLeagueUI.Services.SoccerLeagueService.HandleUserChoice(String choice) in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 68
+   at SoccerLeagueUI.Services.SoccerLeagueService.Run() in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 34
+2023-08-09 17:53:09.205 +02:00 [INF] Application Starting
+2023-08-09 17:53:20.527 +02:00 [INF] File input handling started.
+2023-08-09 17:53:40.349 +02:00 [WRN] File not found at path: C:\Users\X270\OneDrive\soccer-match.txt
+2023-08-09 17:53:57.469 +02:00 [INF] Application Starting
+2023-08-09 17:54:00.365 +02:00 [INF] File input handling started.
+2023-08-09 21:47:34.093 +02:00 [WRN] File path is empty or not provided.
+2023-08-09 21:47:52.997 +02:00 [INF] Application Starting
+2023-08-09 21:48:09.617 +02:00 [ERR] An error occurred: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+System.InvalidOperationException: No service for type 'SoccerLeagueUI.InputHandlers.ManualInputHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at SoccerLeagueUI.Services.SoccerLeagueService.HandleUserChoice(String choice) in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 69
+   at SoccerLeagueUI.Services.SoccerLeagueService.Run() in c:\Users\X270\OneDrive\Desktop\SoccerLeagueConsoleApp\SoccerLeagueUI\Services\SoccerLeagueService.cs:line 35
+2023-08-09 23:09:53.442 +02:00 [INF] Application Starting
+2023-08-09 23:10:01.829 +02:00 [INF] File input handling started.
+2023-08-09 23:10:21.762 +02:00 [WRN] File not found at path: C:\Users\X270\OneDrive\soccer-match.txt
+2023-08-09 23:10:33.511 +02:00 [INF] Application Starting
+2023-08-09 23:10:36.107 +02:00 [INF] Manual input handling started.
+2023-08-09 23:10:45.106 +02:00 [INF] Match data entered: Spain 2, Sa 3
+2023-08-09 23:10:48.553 +02:00 [INF] Executed DbCommand (88ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [TeamScore] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1)) AS i ([Points], [Team], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Points], [Team])
+VALUES (i.[Points], i.[Team])
+OUTPUT INSERTED.[Id], i._Position;
+2023-08-09 23:11:48.565 +02:00 [INF] Application Starting
+2023-08-09 23:12:04.563 +02:00 [INF] File input handling started.
+2023-08-09 23:12:10.434 +02:00 [INF] Reading file contents from path: C:\Users\X270\OneDrive\Desktop\soccer-match.txt
+2023-08-09 23:12:11.963 +02:00 [INF] Executed DbCommand (49ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Int32), @p15='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [TeamScore] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2),
+(@p6, @p7, 3),
+(@p8, @p9, 4),
+(@p10, @p11, 5),
+(@p12, @p13, 6),
+(@p14, @p15, 7)) AS i ([Points], [Team], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Points], [Team])
+VALUES (i.[Points], i.[Team])
+OUTPUT INSERTED.[Id], i._Position;
+2023-08-09 23:22:26.921 +02:00 [INF] Application Starting
+2023-08-09 23:22:29.764 +02:00 [INF] File input handling started.
+2023-08-09 23:22:35.052 +02:00 [INF] Reading file contents from path: C:\Users\X270\OneDrive\Desktop\soccer-match.txt
+2023-08-09 23:22:36.391 +02:00 [INF] Executed DbCommand (41ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Int32), @p15='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [TeamScore] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2),
+(@p6, @p7, 3),
+(@p8, @p9, 4),
+(@p10, @p11, 5),
+(@p12, @p13, 6),
+(@p14, @p15, 7)) AS i ([Points], [Team], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Points], [Team])
+VALUES (i.[Points], i.[Team])
+OUTPUT INSERTED.[Id], i._Position;
