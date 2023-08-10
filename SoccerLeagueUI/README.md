@@ -13,7 +13,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone this repository to your local machine using:
-git clone https://github.com/your-username/soccer-league-app.git
+git clone https://github.com/Yenzelwa/SoccerLeagueConsoleApp.git
 
 2. Navigate to the project directory:
 cd soccer-league-app
